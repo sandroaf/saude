@@ -47,8 +47,6 @@ class Saude extends Model
     }
 
     public function imc() {
-
-        $valores[] = "";
         $valores["nome"] = $_GET["nome"];
         $valores["idade"] = $this->calcula_idade($_GET["datanascimento"]);
         $valores["peso"] = $_GET["peso"];
