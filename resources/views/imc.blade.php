@@ -16,6 +16,7 @@
             <p>Altura: {{$resultadoimc["altura"]}}</p>
             <p>IMC: {{$resultadoimc["imc"]}} - {{$resultadoimc["classificacaoimc"]}}</p>
         </div>
+        <a href="{{url('/')}}">Voltar</a>
     </main>
 </body>
 </html>
