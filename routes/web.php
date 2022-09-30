@@ -15,8 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 
 use App\http\Controllers\SaudeController;
-Route::get('/', [SaudeController::class, 'index']);
+Route::get('/',[SaudeController::class, 'index']);
+Route::get('/dadosimc', [SaudeController::class, 'dadosimc']);
 Route::get('/imc', [SaudeController::class, 'imc']);
+Route::get('/dadossono', [SaudeController::class, 'dadossono']);
+Route::get('/sono', [SaudeController::class, 'sono']);
+
 
 
 
