@@ -1,4 +1,4 @@
-## Saúde - Aplicação para apresentar funcionalidades iniciais do Larabvel
+## Saúde - Aplicação para apresentar funcionalidades iniciais do Laravel
 
 - Estrutura
      * Rotas
@@ -8,4 +8,4 @@
 - Templates e Layouts Com Blade
 - Uso de BootStrap
 
-Mas detalhes: <a href="LARAVAL.md">LARAVEL.md</a>
+Mas detalhes: <a href="LARAVEL.md">LARAVEL.md</a>
