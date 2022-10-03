@@ -5,11 +5,9 @@
     <p>Veja se você está dormindo o suficiente.</p>
 @endsection
 @section('content')
-    <main>
-        <div>
-            <h2>{{$resultadosono["nome"]}}</h2>
-            <p>Idade: {{$resultadosono["idade"]}}</p>
-            <p>Análise Sono: {{$resultadosono["horas"]}} horas - {{$resultadosono["classificacaosono"]}}</p>
-        </div>
-    </main>
+    <div>
+        <h2>{{$resultadosono["nome"]}}</h2>
+        <p>Idade: {{$resultadosono["idade"]}}</p>
+        <p>Análise Sono: {{$resultadosono["horas"]}} horas - {{$resultadosono["classificacaosono"]}}</p>
+    </div>
 @endsection
