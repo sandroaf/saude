@@ -1,6 +1,5 @@
 @extends('layout.app')
 @section('title','Análise Sono')
-@section('titulo', 'Dados da pessoa')
 @section('apresentacao')
     <p>Esta aplicação realização a análise do sono de uma pessoa, informando sua classificação com relação a este cálculo.</p>
 @endsection

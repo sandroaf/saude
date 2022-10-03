@@ -1,6 +1,5 @@
 @extends('layout.app')
 @section('title','Análise Sono - Resultado')
-@section('titulo', 'Análise Sono - Resultado')
 @section('apresentacao')
     <p>Veja se você está dormindo o suficiente.</p>
 @endsection

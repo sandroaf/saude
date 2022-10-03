@@ -1,6 +1,5 @@
 @extends('layout.app')
 @section('title','Calculo IMC - Resultado')
-@section('titulo', 'Cálculo IMC - Resultado')
 @section('apresentacao')
     <p>Veja qual sua classificação com relação ao seu IMC</p>
 @endsection
