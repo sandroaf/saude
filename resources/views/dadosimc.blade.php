@@ -1,11 +1,11 @@
 @extends('layout.app')
 @section('title','Cálculo IMC')
+@section('titulo', 'Dados da pessoa')
+@section('apresentacao')
+    <p>Esta aplicação realização o cálculo do IMC de uma pessoa, informando sua classificação com relação a este cáculo.</p>
+@endsection
 @section('content')
     <main>
-        @section('titulo', 'Dados da pessoa')
-        @section('apresentacao')
-           <p>Esta aplicação realização o cálculo do IMC de uma pessoa, informando sua classificação com relação a este cáculo.</p>
-        @endsection
         <div>
             <form action="{{url('/imc')}}" method="get">
                 <label id="lnome" for="nome">Nome:</label>
