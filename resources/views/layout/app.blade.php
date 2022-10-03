@@ -8,6 +8,7 @@
     <title>Aplicação Saúde - @yield('title')</title>
 </head>
 <body>
+    <div class="logo"><img src="{{asset('img/saude.png')}}"/></div>
     <div class="container">
         <h1>@yield('titulo')</h1>
         @yield('apresentacao')

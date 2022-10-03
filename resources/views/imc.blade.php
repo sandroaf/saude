@@ -1,11 +1,11 @@
 @extends('layout.app')
 @section('title','Calculo IMC - Resultado')
+@section('titulo', 'Cálculo IMC - Resultado')
+@section('apresentacao')
+    <p>Veja qual sua classificação com relação ao seu IMC</p>
+@endsection
 @section('content')
     <main>
-        @section('titulo', 'Cálculo IMC - Resultado')
-        @section('apresentacao')
-            <p>Veja qual sua classificação com relação ao seu IMC</p>
-        @endsection
         <div>
             <h2>{{$resultadoimc["nome"]}}</h2>
             <p>Idade: {{$resultadoimc["idade"]}}</p>

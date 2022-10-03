@@ -1,11 +1,11 @@
 @extends('layout.app')
 @section('title','Análise Sono')
+@section('titulo', 'Dados da pessoa')
+@section('apresentacao')
+    <p>Esta aplicação realização a análise do sono de uma pessoa, informando sua classificação com relação a este cálculo.</p>
+@endsection
 @section('content')
     <main>
-        @section('titulo', 'Dados da pessoa')
-        @section('apresentacao')
-            <p>Esta aplicação realização a análise do sono de uma pessoa, informando sua classificação com relação a este cálculo.</p>
-        @endsection
         <div>
             <form action="{{url('/sono')}}" method="get">
                 <label id="lnome" for="nome">Nome:</label>
@@ -15,7 +15,6 @@
                 <small>Informe idade. Para menores de 1 ano use 0.01 até 0.11</small><br/>
                 <label id="lhoras" for="altura">Média de horas de sono:</label>
                 <input type="number" name="horas" step="1" placeholder="Numero inteiro" required><br/>
-
                 <br/>
                 <button type="submit">Enviar</button>
             </form>
